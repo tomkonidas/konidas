@@ -1,6 +1,6 @@
 +++
 title = "Chapter 0"
-date = "2020-05-10T13:28:19-04:00"
+date = "2020-05-09T13:28:19-04:00"
 author = "Tom Konidas"
 authorTwitter = "tomkonidas" #do not include @
 cover = ""
