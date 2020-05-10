@@ -8,6 +8,7 @@ tags = ["meta", "ccna", "networking"]
 keywords = ["ccna", "networking", "covid-19"]
 description = "Like every good book, we begin at chapter 0."
 showFullContent = false
+draft = false
 +++
 
 > Like every good book, we begin at chapter 0.
