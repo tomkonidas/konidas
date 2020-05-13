@@ -1,4 +1,4 @@
-# My own personal tech blog
+# konidas.net | My own personal tech blog
 
 ## Dev Setup
 
