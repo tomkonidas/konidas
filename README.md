@@ -1,14 +1,18 @@
 # konidas.net | My own personal tech blog
 
-## Dev Setup
 
+## Setup
 > Dependency: Hugo CLI version >= 0.59
 
-- `cd konidas`
-- `hugo server`
-- Open the web server link posted in the console
+To start your Hugo server:
 
+  * `cd` into the directory
+  * Run `hugo server`
+  * Your server should be at `http://localhost:1313` by default
 
+## Technologies
+
+- 
 
 ## Contact
 
