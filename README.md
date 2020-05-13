@@ -1,6 +1,12 @@
 # konidas.net | My own personal tech blog
 
 
+
+
+## General Info
+
+I decided to go with [Hugo](https://gohugo.io/) due to my interest in Google's [Go](https://golang.org/) language. It seemed like the perfect fit for a Blog.
+
 ## Setup
 > Dependency: Hugo CLI version >= 0.59
 
@@ -11,8 +17,7 @@ To start your Hugo server:
   * Your server should be at `http://localhost:1313` by default
 
 ## Technologies
-
-- 
+  * [Hugo](https://gohugo.io/)
 
 ## Contact
 
