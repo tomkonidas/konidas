@@ -1,7 +1,10 @@
 # konidas.net | My own personal tech blog
 
-
-
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Contact](#contact)
 
 ## General Info
 
