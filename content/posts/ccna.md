@@ -13,15 +13,15 @@ draft = false
 
 > 
 
-After about a week of impatiently waiting, my book and hardware finally arrived.
+After about a week of impatiently waiting, my CCNA book and hardware finally arrived.
 I dug into the intro of the book... and let me tell you this thing is **MASSIVE**.
 After quickly speeding through all the pages I got a rough idea of all the topics.  
 
-Since the book is my primary source of learning, it makes sense that I will follow the books chapters in order with my topics.
+Since the book is my primary source of learning, it makes sense that I will follow the book's chapters in order of topics.
 It does not follow the order of the exam but I find it more logical in a way. 🖖  
 
 I did not book an exam date or plan out my whole learning schedule, because I am in no rush; and besides the testing center near me is closed anyways.
-I rather go through and learn everything really well... not to mention it is a ton of info to take in. I have heard of _stories_ of people completing it in 30 days.
+I rather go through and learn everything really well... not to mention it is a ton of info to take in. However I have heard of _stories_ of people completing it in 30 days.
 
 Below are the topics and order I will traverse them. I may split some out into sub-topics if there is too much information.
 
