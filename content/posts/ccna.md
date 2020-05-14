@@ -11,9 +11,7 @@ showFullContent = false
 draft = false
 +++
 
-> Winter is coming.
-
-Now, I can’t promise that you will learn a great deal from following my journey. But I can guarantee that you will at least learn what **NOT** to do.
+> Now, I can’t promise that you will learn a great deal from following my journey. But I can guarantee that you will at least learn what **NOT** to do.
 
 After about a week of impatiently waiting, my CCNA book and hardware finally arrived.
 I dug into the intro of the book... and let me tell you this thing is **MASSIVE**.
@@ -42,4 +40,6 @@ Below are the topics and order I will traverse them. I may split some out into s
 - Network Architecture
 - Network Automation
 
-Engage!
+As Captain Jean-Luc Picard would say...
+
+![Engage](/img/engage.gif)
