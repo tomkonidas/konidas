@@ -15,7 +15,8 @@ draft = false
 
 The day is Saturday May 9th, and we are still in lockdown due to COVID-19.
 During this lockdown I decided to take advantage and pick up some new skills...
-Networking skills to be exact. I have set a goal to obtain my [CCNA](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html).
+Networking skills to be exact. I am looking to solidify my understanding of the whole OSI model... All 7 layers; starting from the bottom.
+I have set a goal to obtain my [CCNA](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html).
 This gave me the idea to start blogging about my learning and possibly help others along the way. This blog wil not be limited to CCNA/Networking but to everything tech related that interests me.
 
 
