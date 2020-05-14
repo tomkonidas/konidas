@@ -33,8 +33,9 @@ I have also gone ahead and purchased some physical hardware off eBay :D ($109.78
 - 2x Power Cord
 - 2x Ethernet Cable
 
-### Free Resources
+### Simulators I will use throughout my studies
 - [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer)
 - [GNS3](https://www.gns3.com/)
+- [Eve-ng](https://www.eve-ng.net/)
 
 The total cost comes out to $238.50 CAD
