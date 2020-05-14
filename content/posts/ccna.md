@@ -6,12 +6,12 @@ authorTwitter = "tomkonidas" #do not include @
 cover = "/img/ccna.jpg"
 tags = ["ccna"]
 keywords = ["cisco", "networking", "ccna"]
-description = ""
+description = "Winter is coming."
 showFullContent = false
 draft = false
 +++
 
-> 
+> Winter is coming.
 
 After about a week of impatiently waiting, my CCNA book and hardware finally arrived.
 I dug into the intro of the book... and let me tell you this thing is **MASSIVE**.
