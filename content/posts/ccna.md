@@ -1,17 +1,19 @@
 +++
-title = "Network++"
+title = "To Boldly Go Where No Developer Has Gone Before"
 date = "2020-05-14T17:59:04-04:00"
 author = "Tom Konidas"
 authorTwitter = "tomkonidas" #do not include @
 cover = "/img/ccna.jpg"
 tags = ["ccna"]
 keywords = ["cisco", "networking", "ccna"]
-description = "Winter is coming."
+description = "Now, I can’t promise that you will learn a great deal from following my journey. But I can guarantee that you will at least learn what NOT to do."
 showFullContent = false
 draft = false
 +++
 
 > Winter is coming.
+
+Now, I can’t promise that you will learn a great deal from following my journey. But I can guarantee that you will at least learn what **NOT** to do.
 
 After about a week of impatiently waiting, my CCNA book and hardware finally arrived.
 I dug into the intro of the book... and let me tell you this thing is **MASSIVE**.
@@ -40,4 +42,4 @@ Below are the topics and order I will traverse them. I may split some out into s
 - Network Architecture
 - Network Automation
 
-Let the games begin!
+Engage!
