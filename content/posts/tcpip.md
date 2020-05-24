@@ -4,6 +4,7 @@ date = "2020-05-24T16:48:52-04:00"
 author = "Tom Konidas"
 authorTwitter = "tomkonidas"
 cover = "img/tcp-ip.jpg"
+tags = ["osi", "tcpip"]
 keywords = ["networking", "tcpip", "protocols", "osi"]
 description = "The fundamentals of networking always start with the TCP/IP and OSI models."
 showFullContent = false
