@@ -86,7 +86,7 @@ The Transport layer provides service to the application layer; the most popular 
 An example service is the **TCP Error Recovery** service:
 If something happens and the browser does not get all the data, TCP is there to make sure it does. It uses acknowledgments to recover from error.
 
-This layer is like a bridge, it gathers all the messages from the application and transmits them into the network.
+This layer is like a bridge with a traffic controller, it gathers all the messages from the application and transmits them into the network.
 
 ## Network Layer
 
@@ -94,21 +94,32 @@ Known for its IP (Internet Protocol); used for addressing and routing.
 
 > This is where the TCP/**IP** gets it's `IP` from.
 
-It is kind of like a postal service, it defines the details of where its coming from and where its going to.
+Think of this layer as a postal service, it defines the details of where its coming from and where its going to.
 
-Has a `source` and `destination` IP in the header.
+It adds a header to the segment with a `source` and `destination` IP.
+This is called a **Packet**.
 
 ## Data-Link & Physical
 
 > Usually bunched together since they work very closely.
 
-Data-Link later consists of how its going to send.
-Such as:
+The Data-Link layer consists of how its going to send.
+Defining technologies such as:
 
 - wifi
 - Ethernet
 
-The Physical Layer is the actual cabling and energy used to transmit the data.
+This layer adds both a Header and Trailer to the packet, which then becomes a **Frame**.
+
+Some important information held in the Frame header are MAC addresses. That is the unique address give to a device.
+They look something like `00:AB:43:12:CC:21`. The first 3 bytes are provided by the IEEE to a vendor (called the OUI -> Organizationally unique identifier), this is because every MAC must be unique so
+vendors request a number and the IEEE provide them. Any vendor that wants to sell hardware must go through the process of registering and obtaining a OUI from the IEEE.
+The manufacturer then adds another 3 bytes to the end ny their own choosing for products.
+This is very interesting because you can know the vendor of a device by looking up the first 3 bytes of a MAC address.
+
+The Trailer in the Frame is used for Error Detection (**Note this is not error recovery, ONLY detection**)
+
+The Physical Layer consists of the actual cabling and energy used to transmit the data.
 Hardware examples include:
 
 - Cables
@@ -117,12 +128,19 @@ Hardware examples include:
 
 ## Data Encapsulation
 
-> Each layer adds its own header data.
+Each layer adds its own header data from the previous layer.
+Then the layer after reads it and generates its own header (or Trailer if L2PDU) and adds upon that.
+The data inside does not matter at the points, it does not care whats inside only the headers/trailer that surround it.
+
+This concept is a familiar one from programming.
 
 |     Layer      |        H/T (OSI)         | A.K.A.  |  OSI  |
 | :------------: | :----------------------: | :-----: | :---: |
 | Transport (4)  |       Header (L4H)       | Segment | L4PDU |
 | Networking (3) |       Header (L3H)       | Packet  | L3PDU |
 | Data-Link (2)  | Header,Trailer (L2H,L2T) |  Frame  | L2PDU |
+
+Once it goes from application to physical, then across the network.
+It works in reverse order on the other side and performs data decapsulation in the reverse order starting from layer 1 to 5.
 
 > A little trick I use to remember that a Frame has not only a header but a Trailer is to think of it being sandwiched between two things. Looking at it through a frame where it is closed on both sides.
