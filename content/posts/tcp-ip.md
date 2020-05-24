@@ -6,10 +6,12 @@ authorTwitter = "tomkonidas" #do not include @
 cover = "img/tcp-ip.jpg"
 tags = ["osi", "tcpip"]
 keywords = ["networking", "tcpip", "protocols", "osi"]
-description = ""
+description = "The fundamentals of networking always starts with the TCP/IP and OSI models."
 showFullContent = false
 draft = true
 +++
+
+> The fundamentals of networking always starts with the TCP/IP and OSI models.
 
 The TCP/IP models creates a set of rules that allows us all to take a computer
 (or mobile device) out of the box, plug in all the right cables, turn it on,
