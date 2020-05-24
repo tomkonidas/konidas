@@ -19,13 +19,13 @@ Networking skills to be exact. I am looking to solidify my understanding of the 
 I have set a goal to obtain my [CCNA](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html).
 This gave me the idea to start blogging about my learning and possibly help others along the way. This blog wil not be limited to CCNA/Networking but to everything tech related that interests me.
 
-
 ## CCNA Learning Resources
 
-- [CCNA 200-301 Official Cert Guide Library (Book + eBook Bundle)](https://www.ciscopress.com/store/ccna-200-301-official-cert-guide-library-9781587147142) ($114.43)
-- [Neil Anderson's Udemy Course](https://www.udemy.com/course/ccna-complete/) ($14.29)
+- [CCNA 200-301 Official Cert Guide Library (Book + eBook Bundle)](https://www.ciscopress.com/store/ccna-200-301-official-cert-guide-library-9781587147142) (\$114.43)
+- [Neil Anderson's Udemy Course](https://www.udemy.com/course/ccna-complete/) (\$14.29)
 
-I have also gone ahead and purchased some physical hardware off eBay :D ($109.78)
+I have also gone ahead and purchased some physical hardware off eBay :D (\$109.78)
+
 - 1x Cisco 1841 router
 - 1x Cisco switch 2950 24 Ports
 - 1x Console Cable
@@ -34,8 +34,9 @@ I have also gone ahead and purchased some physical hardware off eBay :D ($109.78
 - 2x Ethernet Cable
 
 ### Simulators I will use throughout my studies
+
 - [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer)
 - [GNS3](https://www.gns3.com/)
 - [Eve-ng](https://www.eve-ng.net/)
 
-The total cost comes out to $238.50 CAD
+The total cost comes out to \$238.50 CAD

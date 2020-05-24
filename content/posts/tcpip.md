@@ -1,10 +1,9 @@
 +++
-title = "TCP/IP"
-date = "2020-05-24T21:59:04-04:00"
+title = ""
+date = "2020-05-24T16:48:52-04:00"
 author = "Tom Konidas"
-authorTwitter = "tomkonidas" #do not include @
+authorTwitter = "tomkonidas"
 cover = "img/tcp-ip.jpg"
-tags = ["osi", "tcpip"]
 keywords = ["networking", "tcpip", "protocols", "osi"]
 description = "The fundamentals of networking always start with the TCP/IP and OSI models."
 showFullContent = false
@@ -15,7 +14,7 @@ draft = false
 
 Before we talk about these models, lets discuss what a network model even is:
 
-> A network model is like a house blue print.
+A network model is like a house blue print.
 
 We used to have multiple models, vendor specific models, but since [OSI (Open Systems Interconnection)](https://en.wikipedia.org/wiki/OSI_model) was founded in the 1970s by the International Organization for Standardization (ISO),
 we have grown accustomed to adopting an open standard all our networking gear could utilize to communicate with each other.
@@ -41,15 +40,15 @@ Some fun sentences tht you can remember to help you with the layer's and their o
 - Please Do Not Throw Sausage Pizza Away
 - Please Do Not Teach Students Pointless Acronyms
 
-| Layer | OSI          | TCP/IP      | Layer |
-| ----- | ------------ | ----------- | ----- |
-| 7     | Application  |             |
-| 6     | Presentation |             |
-| 5     | Session      | Application | 5     |
-| 4     | Transport    | Transport   | 4     |
-| 3     | Network      | Network     | 3     |
-| 2     | Data-Link    | Data-Link   | 2     |
-| 1     | Physical     | Physical    | 1     |
+| Layer |     OSI      |   TCP/IP    | Layer |
+| :---: | :----------: | :---------: | :---: |
+|   7   | Application  |             |       |
+|   6   | Presentation |             |       |
+|   5   |   Session    | Application |   5   |
+|   4   |  Transport   |  Transport  |   4   |
+|   3   |   Network    |   Network   |   3   |
+|   2   |  Data-Link   |  Data-Link  |   2   |
+|   1   |   Physical   |  Physical   |   1   |
 
 > OSI's layers `5,6,7` is the same as TCP\IP's layer `5`
 
@@ -107,10 +106,10 @@ Hardware examples include:
 
 > Each layer adds its own header data.
 
-| Layer          | H/T (OSI)                | A.K.A.  | OSI   |
-| -------------- | ------------------------ | ------- | ----- |
-| Transport (4)  | Header (L4H)             | Segment | L4PDU |
-| Networking (3) | Header (L3H)             | Packet  | L3PDU |
-| Data-Link (2)  | Header,Trailer (L2H,L2T) | Frame   | L2PDU |
+|     Layer      |        H/T (OSI)         | A.K.A.  |  OSI  |
+| :------------: | :----------------------: | :-----: | :---: |
+| Transport (4)  |       Header (L4H)       | Segment | L4PDU |
+| Networking (3) |       Header (L3H)       | Packet  | L3PDU |
+| Data-Link (2)  | Header,Trailer (L2H,L2T) |  Frame  | L2PDU |
 
-> A little thing I use to remember that a Frame has not only a header but a Trailer is to think of it being sandwiched between two things. Looking at it through a frame where it is closed on both sides.
+> A little trick I use to remember that a Frame has not only a header but a Trailer is to think of it being sandwiched between two things. Looking at it through a frame where it is closed on both sides.
