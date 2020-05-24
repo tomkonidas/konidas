@@ -35,7 +35,7 @@ and connect to and use the network.
 > Even though we do not use the OSI model in practice today, it is still very important to know amongst fellow network engineers
 > as it is very often referred to when chit-chatting to other colleagues.
 
-Some fun sentences tht you can remember to help you with the layer's and their orders:
+Some fun sentences that you can use to help remember the layer's order:
 
 - People Don't Need Those Stupid Packets Anyway (My personal favorite)
 - Please Do Not Take Sales People's Advice
@@ -60,8 +60,6 @@ Every layer's job is to help the layer above.
 
 The application layer provides an interface between software running on a computer and the network itself.
 
-This is the layer I have interacted with as a software developer; Making calls to REST Apis and such.
-
 Examples:
 
 - HTTP (Hypertext Transfer Protocol)
@@ -69,6 +67,8 @@ Examples:
 
 **HTTP** can be found in the browser's url. You use it all the time.
 When you see status codes of `404` not found and `200` ok, these come from the application layer.
+
+This is the layer I have interacted with as a software developer; Making calls to REST Apis and such.
 
 Open your browsers dev tools (`F12`), go to the network tab and refresh the page.
 Here you can see all the network calls and their status.
