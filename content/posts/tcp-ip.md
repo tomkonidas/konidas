@@ -8,7 +8,7 @@ tags = ["osi", "tcpip"]
 keywords = ["networking", "tcpip", "protocols", "osi"]
 description = "The fundamentals of networking always start with the TCP/IP and OSI models."
 showFullContent = false
-draft = true
+draft = false
 +++
 
 > The fundamentals of networking always start with the TCP/IP and OSI models.
@@ -32,9 +32,9 @@ The TCP/IP models creates a set of rules that allows us all to take a computer
 and connect to and use the network.
 
 > Even though we do not use the OSI model in practice today, it is still very important to know amongst fellow engineers
-> as it is very often refered to when chit-chating to other colleagues.
+> as it is very often referred to when chit-chatting to other colleagues.
 
-Some fun sentences tht you can rememebr to help you with the layer's and their orders:
+Some fun sentences tht you can remember to help you with the layer's and their orders:
 
 - People Don't Need Those Stupid Packets Anyway (My personal favorite)
 - Please Do Not Take Sales People's Advice
@@ -57,7 +57,7 @@ Every layer's job is to help the layer above.
 
 ## Application Layer
 
-The application layer provides an interface between software runing on a computer and the network itself.
+The application layer provides an interface between software running on a computer and the network itself.
 
 Examples:
 
@@ -74,7 +74,7 @@ Provides service to the application layer; the most popular protocols for this l
 > Notice the `tcp` from **TCP**/IP comes from this layer as it is one of the most important layers along with the network layer which we will soon discuss.
 
 An example service is the **TCP Error Recovery** service:
-If something happens and the browser does not get all the data, TCP is there to make sure it does. It uses acknowlegments to recover from error.
+If something happens and the browser does not get all the data, TCP is there to make sure it does. It uses acknowledgments to recover from error.
 
 ## Network Layer
 
@@ -88,7 +88,7 @@ Has a `source` and `destination` IP in the header.
 
 ## Data-Link & Physical
 
-> Usualy bunched together since they work very closely.
+> Usually bunched together since they work very closely.
 
 Data-Link later consists of how its going to send.
 Such as:
@@ -113,4 +113,4 @@ Hardware examples include:
 | Networking (3) | Header (L3H)             | Packet  | L3PDU |
 | Data-Link (2)  | Header,Trailer (L2H,L2T) | Frame   | L2PDU |
 
-> A little thing I use to remeber that a Frame has not only a header but a Trailer is to think of it being sandwitched between two things. Looking at it through a frame where it is closed on both sides.
+> A little thing I use to remember that a Frame has not only a header but a Trailer is to think of it being sandwiched between two things. Looking at it through a frame where it is closed on both sides.
