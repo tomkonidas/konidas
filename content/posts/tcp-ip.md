@@ -8,7 +8,7 @@ tags = ["osi", "tcpip"]
 keywords = ["networking", "tcpip", "protocols", "osi"]
 description = ""
 showFullContent = false
-draft = false
+draft = true
 +++
 
 The TCP/IP models creates a set of rules that allows us all to take a computer
