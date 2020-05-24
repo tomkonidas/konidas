@@ -16,6 +16,7 @@ draft = false
 Before we talk about these models, lets discuss what a network model even is:
 
 Put simply, a network model is like a house blue print.
+Another way to think of it is like a nice big cake. Where each layer adds its own flavor to the mix.
 
 We used to have multiple models, vendor specific models, but since the [OSI (Open Systems Interconnection)](https://en.wikipedia.org/wiki/OSI_model) was founded in the 1970s by the International Organization for Standardization (ISO),
 we have grown accustomed to adopting an open standard all our networking gear could utilize to communicate with each other.
