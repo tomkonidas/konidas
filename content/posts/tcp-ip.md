@@ -8,7 +8,7 @@ tags = ["osi", "tcpip"]
 keywords = ["networking", "tcpip", "protocols", "osi"]
 description = "The fundamentals of networking always start with the TCP/IP and OSI models."
 showFullContent = false
-draft = false 
+draft = true
 +++
 
 > The fundamentals of networking always start with the TCP/IP and OSI models.
