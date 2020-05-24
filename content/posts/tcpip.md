@@ -79,12 +79,14 @@ Here you can see all the network calls and their status.
 
 ## Transport layer
 
-Provides service to the application layer; the most popular protocols for this layer are TCP and UDP.
+The Transport layer provides service to the application layer; the most popular protocols for this layer are TCP and UDP.
 
 > Notice the `tcp` from **TCP**/IP comes from this layer as it is one of the most important layers along with the network layer which we will soon discuss.
 
 An example service is the **TCP Error Recovery** service:
 If something happens and the browser does not get all the data, TCP is there to make sure it does. It uses acknowledgments to recover from error.
+
+This layer is like a bridge, it gathers all the messages from the application and transmits them into the network.
 
 ## Network Layer
 
