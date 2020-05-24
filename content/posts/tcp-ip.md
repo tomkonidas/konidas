@@ -8,7 +8,7 @@ tags = ["osi", "tcpip"]
 keywords = ["networking", "tcpip", "protocols", "osi"]
 description = "The fundamentals of networking always start with the TCP/IP and OSI models."
 showFullContent = false
-draft = false
+draft = true
 +++
 
 > The fundamentals of networking always start with the TCP/IP and OSI models.
@@ -17,13 +17,14 @@ Before we talk about these models, lets discuss what a network model even is:
 
 > A network model is like a house blue print.
 
-We used to have multiple models, vendor specific models, but since [OSI (Open Systems Interconnection)](https://en.wikipedia.org/wiki/OSI_model) was founded in the 1970s by the International Organization for Standardization (ISO), 
+We used to have multiple models, vendor specific models, but since [OSI (Open Systems Interconnection)](https://en.wikipedia.org/wiki/OSI_model) was founded in the 1970s by the International Organization for Standardization (ISO),
 we have grown accustomed to adopting an open standard all our networking gear could utilize to communicate with each other.
 
 [TCP/IP](https://en.wikipedia.org/wiki/Internet_protocol_suite) comes from the DoD and was adopted in the 1990s which quickly replaced the OSI model.
 By the 2000s it dominated all networks and became the primary model. It is still used to this very day.
 
 ### Why did TCP/IP replace the OSI?
+
 OSI took too long to develope, TCP/IP had many volunteers so it took the lead in popularity and adoption.
 
 The TCP/IP models creates a set of rules that allows us all to take a computer
@@ -31,23 +32,24 @@ The TCP/IP models creates a set of rules that allows us all to take a computer
 and connect to and use the network.
 
 > Even though we do not use the OSI model in practice today, it is still very important to know amongst fellow engineers
-> as it is very often refered to when chit-chating to other colleagues. 
+> as it is very often refered to when chit-chating to other colleagues.
 
 Some fun sentences tht you can rememebr to help you with the layer's and their orders:
+
 - People Don't Need Those Stupid Packets Anyway (My personal favorite)
 - Please Do Not Take Sales People's Advice
 - Please Do Not Throw Sausage Pizza Away
 - Please Do Not Teach Students Pointless Acronyms
 
-|Layer|OSI|TCP/IP|Layer|
-|---|---|---|---|
-|7|Application||
-|6|Presentation||
-|5|Session|Application|5|
-|4|Transport|Transport|4|
-|3|Network|Network|3|
-|2|Data-Link|Data-Link|2|
-|1|Physical|Physical|1|
+| Layer | OSI          | TCP/IP      | Layer |
+| ----- | ------------ | ----------- | ----- |
+| 7     | Application  |             |
+| 6     | Presentation |             |
+| 5     | Session      | Application | 5     |
+| 4     | Transport    | Transport   | 4     |
+| 3     | Network      | Network     | 3     |
+| 2     | Data-Link    | Data-Link   | 2     |
+| 1     | Physical     | Physical    | 1     |
 
 > OSI's layers `5,6,7` is the same as TCP\IP's layer `5`
 
@@ -58,6 +60,7 @@ Every layer's job is to help the layer above.
 The application layer provides an interface between software runing on a computer and the network itself.
 
 Examples:
+
 - HTTP (Web Browsers)
 - SMTP/POP3 (Email)
 
@@ -71,9 +74,10 @@ Provides service to the application layer; the most popular protocols for this l
 > Notice the `tcp` from **TCP**/IP comes from this layer as it is one of the most important layers along with the network layer which we will soon discuss.
 
 An example service is the **TCP Error Recovery** service:
-If  something happens and the browser does not get all the data, TCP is there to make sure it does. It uses acknowlegments to recover from error.
+If something happens and the browser does not get all the data, TCP is there to make sure it does. It uses acknowlegments to recover from error.
 
 ## Network Layer
+
 Known for its IP (Internet Protocol); used for addressing and routing.
 
 > This is where the TCP/**IP** gets it's `IP` from.
@@ -86,13 +90,15 @@ Has a `source` and `destination` IP in the header.
 
 > Usualy bunched together since they work very closely.
 
-Data-Link later consists of how its going to send. 
+Data-Link later consists of how its going to send.
 Such as:
+
 - wifi
 - Ethernet
 
 The Physical Layer is the actual cabling and energy used to transmit the data.
 Hardware examples include:
+
 - Cables
 - Hubs (Pretty old but still may find some in legacy networks)
 - Repeaters
@@ -101,11 +107,10 @@ Hardware examples include:
 
 > Each layer adds its own header data.
 
-|Layer|H/T (OSI)|A.K.A.|OSI|
-|---|---|---|---|
-|Transport (4)|Header (L4H)|Segment|L4PDU|
-|Networking (3)|Header (L3H)|Packet|L3PDU|
-|Data-Link (2)|Header,Trailer (L2H,L2T)|Frame|L2PDU|
-
+| Layer          | H/T (OSI)                | A.K.A.  | OSI   |
+| -------------- | ------------------------ | ------- | ----- |
+| Transport (4)  | Header (L4H)             | Segment | L4PDU |
+| Networking (3) | Header (L3H)             | Packet  | L3PDU |
+| Data-Link (2)  | Header,Trailer (L2H,L2T) | Frame   | L2PDU |
 
 > A little thing I use to remeber that a Frame has not only a header but a Trailer is to think of it being sandwitched between two things. Looking at it through a frame where it is closed on both sides.
