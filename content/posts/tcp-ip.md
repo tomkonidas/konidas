@@ -8,7 +8,7 @@ tags = ["osi", "tcpip"]
 keywords = ["networking", "tcpip", "protocols", "osi"]
 description = "The fundamentals of networking always start with the TCP/IP and OSI models."
 showFullContent = false
-draft = true
+draft = false
 +++
 
 > The fundamentals of networking always start with the TCP/IP and OSI models.
@@ -17,10 +17,11 @@ Before we talk about these models, lets discuss what a network model even is:
 
 > A network model is like a house blue print.
 
-We used to have multiple models, vendor specific models, but since OSI (Open Systems Interconnection) was founded in the 1970s, 
+We used to have multiple models, vendor specific models, but since [OSI (Open Systems Interconnection)](https://en.wikipedia.org/wiki/OSI_model) was founded in the 1970s by the International Organization for Standardization (ISO), 
 we have grown accustomed to adopting an open standard all our networking gear could utilize to communicate with each other.
 
-TCP/IP Comes from the DoD and was adopted in the 1990s which quickly replaced the OSI model.
+[TCP/IP](https://en.wikipedia.org/wiki/Internet_protocol_suite) comes from the DoD and was adopted in the 1990s which quickly replaced the OSI model.
+By the 2000s it dominated all networks and became the primary model. It is still used to this very day.
 
 ### Why did TCP/IP replace the OSI?
 OSI took too long to develope, TCP/IP had many volunteers so it took the lead in popularity and adoption.
