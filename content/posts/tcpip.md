@@ -15,23 +15,23 @@ draft = false
 
 Before we talk about these models, lets discuss what a network model even is:
 
-A network model is like a house blue print.
+Put simply, a network model is like a house blue print.
 
-We used to have multiple models, vendor specific models, but since [OSI (Open Systems Interconnection)](https://en.wikipedia.org/wiki/OSI_model) was founded in the 1970s by the International Organization for Standardization (ISO),
+We used to have multiple models, vendor specific models, but since the [OSI (Open Systems Interconnection)](https://en.wikipedia.org/wiki/OSI_model) was founded in the 1970s by the International Organization for Standardization (ISO),
 we have grown accustomed to adopting an open standard all our networking gear could utilize to communicate with each other.
 
 [TCP/IP](https://en.wikipedia.org/wiki/Internet_protocol_suite) comes from the DoD and was adopted in the 1990s which quickly replaced the OSI model.
-By the 2000s it dominated all networks and became the primary model. It is still used to this very day.
+By the 2000s, it dominated all networks and became the primary model. It is what's used to this very day.
 
 ### Why did TCP/IP replace the OSI?
 
-OSI took too long to develope, TCP/IP had many volunteers so it took the lead in popularity and adoption.
+The OSI took too long to develop and the TCP/IP had many volunteers, so naturally it took the lead in popularity and adoption.
 
 The TCP/IP models creates a set of rules that allows us all to take a computer
 (or mobile device) out of the box, plug in all the right cables, turn it on,
 and connect to and use the network.
 
-> Even though we do not use the OSI model in practice today, it is still very important to know amongst fellow engineers
+> Even though we do not use the OSI model in practice today, it is still very important to know amongst fellow network engineers
 > as it is very often referred to when chit-chatting to other colleagues.
 
 Some fun sentences tht you can remember to help you with the layer's and their orders:
@@ -59,6 +59,8 @@ Every layer's job is to help the layer above.
 
 The application layer provides an interface between software running on a computer and the network itself.
 
+This is the layer I have interacted with as a software developer; Making calls to REST Apis and such.
+
 Examples:
 
 - HTTP (Web Browsers)
@@ -66,6 +68,9 @@ Examples:
 
 **HTTP** can be found in the browser's url. You use it all the time.
 When you see status codes of `404` not found or `200` ok, these come from the application layer.
+
+Open your browsers dev tools (`F12`), go to the network tab and refresh the page.
+Here you can see all the network calls and their status'.
 
 ## Transport layer
 
