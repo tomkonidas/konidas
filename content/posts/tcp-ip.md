@@ -1,6 +1,6 @@
 +++
 title = "TCP/IP"
-date = "2020-05-19T21:59:04-04:00"
+date = "2020-05-24T21:59:04-04:00"
 author = "Tom Konidas"
 authorTwitter = "tomkonidas" #do not include @
 cover = "img/tcp-ip.jpg"
