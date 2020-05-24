@@ -63,14 +63,18 @@ This is the layer I have interacted with as a software developer; Making calls t
 
 Examples:
 
-- HTTP (Web Browsers)
+- HTTP (Hypertext Transfer Protocol)
 - SMTP/POP3 (Email)
 
 **HTTP** can be found in the browser's url. You use it all the time.
-When you see status codes of `404` not found or `200` ok, these come from the application layer.
+When you see status codes of `404` not found and `200` ok, these come from the application layer.
 
 Open your browsers dev tools (`F12`), go to the network tab and refresh the page.
-Here you can see all the network calls and their status'.
+Here you can see all the network calls and their status.
+
+![Firefox Dev Tools HHTP Status](/img/network-http-status-devtools.PNG)
+
+[Here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) is a list of the standard HTTP responses codes if you are more curious on this subject.
 
 ## Transport layer
 
