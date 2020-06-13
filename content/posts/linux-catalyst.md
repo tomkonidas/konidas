@@ -110,7 +110,7 @@ You might be used to using TMUX (I tried to use this but there is no COM support
 Screen goes the other way and uses Emacs key-bindings, instead of vim-like keybindings.
 So here are some useful commands.
 
-`C` is short for the [CTRL] key
+`C` is short for the [CTRL] key  
 `S` is short for the [Shift] key
 
 | Command       | Description                          |
