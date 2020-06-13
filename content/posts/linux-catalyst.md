@@ -89,6 +89,8 @@ by piping the output into a grep.
 
 You are looking for something that resembles:
 
+![dmesg output](/img/dmesg.jpg)
+
 ## Step 2
 
 ### Connecting to the device
@@ -98,6 +100,8 @@ This is the easy part, just use screen into your tty you discovered in the previ
 `sudo screen /dev/ttyUSB0`
 
 Hit the `Enter` key and your in!
+
+![Cisco Catalyst output](/img/enter-catalyst.jpg)
 
 ## GNU Screen Cheat Sheet
 
