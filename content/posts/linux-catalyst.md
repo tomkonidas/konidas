@@ -28,7 +28,14 @@ All you need is 1 program and your off to the races.
 
 **Note**: This also works for BSDs or any other \*NIX OS that is able to run GNU Screen... (I'm looking at you OSX🧐)
 
-## Step 0: Prerequisites
+# Step 0: Prerequisites
+
+## Cables and Adapters
+
+If you have an older model, you will need to get a Console cable with a USB To RS232 Serial Converter Cable Adapter.
+If you have something more "modern", you can connect straight via USB. This does not affect anything where going to discuss today.
+
+## GNU Screen
 
 What is [GNU Screen](https://www.gnu.org/software/screen/)?
 
@@ -43,27 +50,27 @@ You can [proceed to Step 1](#step-1)
 Most Linux Distros ship with GNU Screen installed, but if you are like me and running a minimalistic Gentoo or Arch setup it might not be there.
 Here is how you would go about doing so.
 
-### Arch
+#### Arch
 
 `sudo pacman -Syu screen`
 
-### Gentoo
+#### Gentoo
 
 `sudo emerge --ask app-misc/screen`
 
-### Solus
+#### Solus
 
 `sudo eopkg install screen`
 
-### Debian (and Debian based distros)
+#### Debian (and Debian based distros)
 
 `sudo apt install screen`
 
-### Fedora
+#### Fedora
 
 `sudo dnf install screen`
 
-### RHEL/CentOS
+#### RHEL/CentOS
 
 `sudo yum install screen`
 
@@ -71,3 +78,45 @@ I think we covered pretty good ground here.
 Let's continue.
 
 ## Step 1
+
+### Identifying the port your device is connected on
+
+To do this we can use the `dmesg` command. This will print out a bunch of kernel info.
+Once you plug in your cable, the device should show up. We can easily find our device
+by piping the output into a grep.
+
+`sudo dmesg | grep -i tty`
+
+You are looking for something that resembles:
+
+## Step 2
+
+### Connecting to the device
+
+This is the easy part, just use screen into your tty you discovered in the previous step.
+
+`sudo screen /dev/ttyUSB0`
+
+Hit the `Enter` key and your in!
+
+## GNU Screen Cheat Sheet
+
+If you are a VIM user like I am, Screen might be a little weird to use at first.
+You might be used to using TMUX (I tried to use this but there is no COM support).
+Screen goes the other way and uses Emacs key-bindings, instead of vim-like keybindings.
+So here are some useful commands.
+
+`C` is short for the [CTRL] key
+`S` is short for the [Shift] key
+
+| Command       | Description                          |
+| ------------- | ------------------------------------ |
+| screen [host] | Connecting to your device            |
+| C-a ?         | Show key bindings                    |
+| C-a \|        | Make a new vertical split window     |
+| C-a S-s       | Make a new Horizontal split window   |
+| C-a S-x       | Remove the current window            |
+| C-a \         | Kill all windows and quit screen     |
+| C-a TAB       | Cycle through splits                 |
+| C-a a         | Go to beginning of line (Workaround) |
+| C-e           | Go to end of line                    |
