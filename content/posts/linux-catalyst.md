@@ -13,8 +13,8 @@ draft = false
 
 > Connecting to Cisco hardware consoles on Linux with GNU Screen.
 
-After a little bit of online googling, I came to a conclusion there aren't
-that many tutorials that go about connecting to Cisco gear via COM port with Linux.
+After a little bit of online googling, I came to a conclusion that there aren't many
+tutorials that go about connecting to Cisco gear via COM port with Linux.
 Most articles are using SSH/Telnet or through PuTTy on Windows.
 
 So here I am making this easy to follow guide on how to do it.
