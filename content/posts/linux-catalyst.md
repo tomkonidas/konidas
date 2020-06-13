@@ -1,5 +1,5 @@
 +++
-title = ""
+title = "Linux and Cisco Hardware"
 date = "2020-06-13T06:31:44-04:00"
 author = "Tom Konidas"
 authorTwitter = "tomkonidas"
