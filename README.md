@@ -1,5 +1,7 @@
 # konidas.net | My own personal tech blog
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7f522870-b09d-4940-b303-7635e4ee778b/deploy-status)](https://app.netlify.com/sites/konidas/deploys)
+
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
