@@ -1,4 +1,4 @@
-baseurl = "https://konidas.net"
+baseurl = "https://konidas.netlify.app"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
